@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <RootNamespace>XmlGetSplit</RootNamespace>
+    <AssemblyName>XmlGetSplit</AssemblyName>
+    <ProjectGuid>{749d7ab1-feca-4f33-98ee-482b1ee0026a}</ProjectGuid>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <OutputType>Library</OutputType>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <Nullable>enable</Nullable>
+    <LangVersion>Latest</LangVersion>
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Krafs.Rimworld.Ref" Version=" 1.5.4085" GeneratePathProperty="true" />
+    <!-- <PackageReference Include="15adhami.XmlExtensions" Version="1.7.0" /> -->
+  </ItemGroup>
+
+</Project>
